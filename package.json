@@ -1,0 +1,11 @@
+"scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "img": "node App/scripts/imgGenerator.js",
+    "fonts": "node App/scripts/fontGenerator.js",
+    "Ios:device": "react-native run-ios --device",
+    "Node/Install/Ios/pods/install": "npm i && cd ios && pod install && cd ..",
+    "Ios/Iphone11": "react-native run-ios --simulator=\"iPhone 11\"",
+    "build:apk": "react-native start && cd android && ./gradlew assembleRelease"
+},

@@ -3,6 +3,7 @@
 - [NPM-Scripts](#3-npmnpx)
 
 
+
 # ResourceMap
  App folder structure : 
 
@@ -99,3 +100,11 @@ return (
 ```
 
 </details>
+
+
+# React-Babel-Import
+
+see > BabelImport folder
+1. copy files to ProjectName 
+2. paste devDependency + npm i
+3. done. with this lib you replace '../../..' with '~'
